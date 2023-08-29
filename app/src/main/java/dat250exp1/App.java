@@ -1,3 +1,5 @@
+package dat250exp1;
+
 import io.javalin.Javalin;
 
 public class App {
