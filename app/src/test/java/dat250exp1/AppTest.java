@@ -7,10 +7,12 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class AppTest {
-    /*
-    @Test void appHasAGreeting() {
-        App classUnderTest = new App();
-        assertNotNull(classUnderTest.getGreeting(), "app should have a greeting");
+
+    @Test void convertUnitTest() {
+        final double precision = 0.01;
+        assertTrue( Math.abs(App.convertUnit("mi", "ft", 1) - 5280.0) < precision);
+        assertTrue( Math.abs(App.convertUnit("ft", "in", 1) - 12.0) < precision);
+        assertTrue( Math.abs(App.convertUnit("m", "m", 1) - 1.0) < precision);
     }
-    */
+
 }
