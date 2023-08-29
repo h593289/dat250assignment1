@@ -1,0 +1,3 @@
+Setup of JDK, IDE, Gradle and Git completed successfully. Project successfully builds and runs. Refactored and created unit tests as instructed without issues.
+
+Skipped step 5 and installation of Podman due to issues with installation: Podman requires that I enable the 'Virtual Machine Platform' feature on my device. However, attempting to enable it causes my device to fail to boot for unknown reasons, causing me great grief. After 2 attempts of enabling the Virtual Machine Platform feature and having to recover my device both times, I've determined that completing step 5 on my own device simply wasn't worth it. Hopefully, I'll be able to delegate the task of deployment and such to my fellow students (with notably less atrocious devices) in the future.
